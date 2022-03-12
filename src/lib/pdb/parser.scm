@@ -312,9 +312,3 @@
       (display
        (string-concatenate
         (list "const molecule = " (molecule->js-object mol) ";"))))))
-
-  ;; (with-output-to-file dest (lambda () (display three-js-begin))))
-  ;; (with-output-to-file dest
-  ;;   (lambda ()
-  ;;     (display
-  ;;      (string-concatenate (list three-js-begin three-js-end))))))
